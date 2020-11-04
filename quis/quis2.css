@@ -1,0 +1,45 @@
+header {
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    width: auto;
+    height: 100px;
+}
+
+section {
+    background-color: rebeccapurple;
+    font-size: 2em;
+    width: auto;
+    height: 500px;
+}
+
+footer {
+    background-color: gray;
+    width: auto;
+    height: 50p;
+}
+
+div.head {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+div.foot {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+div.shadow {
+    opacity: 50%;
+    transform-origin: 0 0;
+    transform: rotateX(180deg);
+    margin-top: 44px;
+    margin-left: 35px;
+}
+
+div.side {
+    border: 1px solid black;
+    background-color: white;
+    float: right;
+}

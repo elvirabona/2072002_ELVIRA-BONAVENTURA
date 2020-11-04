@@ -1,0 +1,68 @@
+.container {
+
+}
+
+.content {
+    border: double black;
+    float: right;
+    margin-right: 5%;
+    margin-top: 10%;
+    width: 300px;
+}
+
+#img {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    margin-left: 40%;
+    position: relative;
+}
+
+input#btnSub {
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    width: 286px;
+    height: 7%;
+}
+
+input {
+    width: 200px;
+}
+
+#border1 {
+    border: solid black;
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-top: 7.7%;
+    margin-right: -2.5%;
+}
+
+#border2 {
+    border: solid black;
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-top: 32.4%;
+    margin-right: -39.8%;
+}
+
+#border3 {
+    border: solid black;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+}
+
+.isi {
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    float: right;
+    margin-top: 17%;
+    margin-right: 15%;
+    transform: rotate(-45deg);
+}
