@@ -1,0 +1,121 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0 0;
+    margin: 0 0;
+    font-size: 1.1em;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    padding: 20px 0;
+    background-color: skyblue;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+.navigation {
+    width: 85%;
+    margin: 0 auto;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px 10px 0;
+    color: white;
+}
+
+nav a:hover {
+    color: black;
+    transition-duration: 0.3s;
+}
+
+#android {
+    display: block;
+    position: fixed;
+    top: 10px;
+    right: 110px;
+    font-size: 50px;
+    color: greenyellow;
+    font-weight: bold;
+}
+
+article {
+    width: 85%;
+    margin: 0 auto;
+}
+
+h1 {
+    background-image: url("blue_pattern.jpg")
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 0.01px;
+}
+
+td {
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 0.01px;
+}
+
+footer {
+    background-color: lightblue;
+    padding: 20px 20px;
+}
+
+#nama {
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+#history {
+    padding: 10px 0;
+}
+
+.left {
+    float: left;
+    width: 80%;
+}
+
+.right {
+    float: left;
+    width: 20%;
+}
+
+#hardware {
+    padding: 10px 0;
+}
+
+#reception {
+    padding: 10px 0;
+}
+
+#logo {
+    float: right;
+    width: 25%;
+    height: 25%;
+}
+
+#android {
+    float: left;
+    width: 15%;
+    height: 25%;
+}
